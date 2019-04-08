@@ -1,2 +1,2 @@
-# packaging_tutorial
-example packaging tutorial for pypi
+# happy-scientists
+example package to generate funny random names
