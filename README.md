@@ -1,2 +1,2 @@
-# happy-scientists
-example package to generate funny random names
+# Happy Scientists
+Incredible package to generate funny random names
