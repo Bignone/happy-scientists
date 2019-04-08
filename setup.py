@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="happy-scientists",
-    version="0.0.1",
+    version="0.0.2",
     author="Eduardo Bustos",
     author_email="eduardobustosmiranda@hotmail.com",
     description="Library for generate funny random scientists names",
