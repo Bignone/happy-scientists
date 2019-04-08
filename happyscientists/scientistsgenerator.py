@@ -5,15 +5,15 @@ class ScientistsGenerator:
 
     adjetives = [
         "adaptable",
-        "adventurous ",
+        "adventurous",
         "friendly",
-        "courageous ",
-        "diligent ",
-        "exuberant ",
-        "gregarious ",
+        "courageous",
+        "diligent",
+        "exuberant",
+        "gregarious",
         "inventive",
-        "passionate ",
-        "person "
+        "passionate",
+        "funny"
     ]
     scientists = [
         "Curie",
@@ -31,5 +31,5 @@ class ScientistsGenerator:
     def generate_name():
         adjetive = random.choice(ScientistsGenerator.adjetives)
         scientist = random.choice(ScientistsGenerator.scientists)
-        random_name = "{}_{}".format(adjetive, scientist)
-        return random_name
+        random_scientist = "{}_{}".format(adjetive, scientist)
+        return random_scientist
